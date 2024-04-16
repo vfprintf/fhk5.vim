@@ -2,7 +2,7 @@ if exists("b:current_syntax")
 	finish
 endif
 
-syn keyword fhkKeyword macro model var map query const where satisfies let in as and or
+syn keyword fhkKeyword macro model var map const where satisfies let in as and or
 syn keyword fhkInf inf
 
 " syn match fhkIdent  /[[:alpha:]_\~][[:alnum:]_\.\~]*/
