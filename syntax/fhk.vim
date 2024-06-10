@@ -16,7 +16,7 @@ syn match fhkOper    /\.\./
 syn match fhkNum     /\<\(\([[:digit:]]\+\(\.[[:digit:]]*\)\?\)\|\(\.[[:digit:]]\+\)\)\([eE]-\?[[:digit:]\+]\)\?\>/
 syn match fhkNum     /\<0x[a-fA-F]\+\>/
 
-syn region fhkLineComment start="//" end="$"
+syn region fhkLineComment start=";" end="$"
 
 hi def link fhkKeyword     Keyword
 hi def link fhkIdentQ      Constant
