@@ -3,6 +3,7 @@ if exists("b:current_syntax")
 endif
 
 syn keyword fhkKeyword macro model var map const where satisfies let in as and or not
+syn keyword fhkBool true false
 syn keyword fhkInf inf
 
 " syn match fhkIdent  /[[:alpha:]_\~][[:alnum:]_\.\~]*/
@@ -25,6 +26,7 @@ hi def link fhkCapture     Identifier
 hi def link fhkDelim       Delimiter
 hi def link fhkOper        Operator
 hi def link fhkInf         Number
+hi def link fhkBool        Boolean
 hi def link fhkNum         Number
 hi def link fhkLineComment Comment
 
