@@ -7,6 +7,7 @@ syn keyword fhkBool true false
 syn keyword fhkInf inf
 
 " syn match fhkIdent  /[[:alpha:]_\~][[:alnum:]_\.\~]*/
+syn match fhkThis    /\$\$/
 syn match fhkIdentQ  /`\([^`]*\)`/
 syn match fhkString  /"\([^"]*\)"/
 syn match fhkCapture /\$[[:alpha:]_\~][[:alnum:]_\.\~]*/
@@ -20,6 +21,7 @@ syn match fhkNum     /\<0x[a-fA-F]\+\>/
 syn region fhkLineComment start=";" end="$"
 
 hi def link fhkKeyword     Keyword
+hi def link fhkThis        Constant
 hi def link fhkIdentQ      Constant
 hi def link fhkString      String
 hi def link fhkCapture     Identifier
