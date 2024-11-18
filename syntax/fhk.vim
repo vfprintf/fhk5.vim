@@ -2,7 +2,7 @@ if exists("b:current_syntax")
 	finish
 endif
 
-syn keyword fhkKeyword not call macro model table func where out let in
+syn keyword fhkKeyword not call macro var model table func where out let in
 syn keyword fhkBool true false
 syn keyword fhkInf inf
 
